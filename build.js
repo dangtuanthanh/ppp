@@ -16,7 +16,7 @@ function normalizePort(val) {
 
   return false;
 }
-const serverInstance = app.listen(PORT, () => {
+const serverInstance = app.listen(4000, () => {
     console.log(`🌍 Running temp server on ${PORT}`);
 });
 
