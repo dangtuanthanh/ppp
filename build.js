@@ -34,7 +34,7 @@ async function startProcess() {
             console.log("🚀 Start main server...");
             require("child_process").execSync("npm start", { stdio: "inherit" });
         });
-    }, 30000); // 30 giây
+    }, 60000); // 30 giây
 }
 
 startProcess();
